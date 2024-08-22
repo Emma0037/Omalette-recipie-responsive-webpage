@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* .red-hat-text-<uniquifier> { */
+  /* font-family: "Red Hat Text", sans-serif; */
+  /* font-optical-sizing: auto; */
+  /* font-weight: <weight>; */
+  /* font-style: normal; */
+/* } */
+body{
+    background-color: hsl(330, 100%, 98%);
+    width: 1440px;
+    display: grid;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: "Red Hat Text", sans-serif;
+    
+}
+.container{
+    padding: 30px;
+    width: 800px;
+    background-color: hsl(0, 0%, 100%);
+    display: grid;
+    border-radius: 20px;
+    line-height: 1.5;
+}
+.container img{
+    width: 700px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container h2{
+    color: hsl(332, 51%, 32%);
+    font-family: 'young serif';
+    font-weight: 400;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 600;
+
+}
+.container p{
+    font-size: 16px;
+    color:hsl(14, 35%, 36%);
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 400;
+}
+.main{
+    background-color: hsl(330, 100%, 98%);
+    width: 700px;
+    color: hsl(30, 10%, 34%);
+    padding: 30px;
+    border-radius: 20px;
+    display: grid;
+    line-height: 2.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main h3{
+    color: hsl(332, 51%, 32%);
+    font-family: "Red Hat Text", sans-serif;
+}
+.main li{
+    display: flex;
+   
+}
+.main2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main2 p{
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 400;
+
+}
+.main2 li{
+    display: flex;
+
+}
+.main3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main3 ul li{
+    color: hsl(332, 51%, 32%);
+    margin-left: 30px;
+    margin-bottom: 15px;
+    font-family: "Red Hat Text", sans-serif;
+}
+
+
+ .footer{
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 10px;
+}
+.item{
+    margin-left: 40px;
+    flex: 10px;
+    margin-bottom: 15px;
+    line-height: 2.5;
+    font-family: "Red Hat Text", sans-serif;
+}
+span{
+    color:hsl(332, 51%, 32%) ;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Red Hat Text", sans-serif;
+}
+hr{
+    margin-bottom: 10px;
+}
+h2{
+    margin-bottom: 20px;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 600;
+}
+
+@media(max-width:375px){
+    body{
+        display: grid;
+        background-color: hsl(0, 0%, 100%);
+    }
+    .container{
+        background-color:hsl(330, 100%, 98%);
+    }
+    .main{
+        background-color:hsl(0, 0%, 100%);
+    }
+}
